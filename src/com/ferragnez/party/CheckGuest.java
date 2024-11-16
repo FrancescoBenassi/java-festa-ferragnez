@@ -8,10 +8,9 @@ public class CheckGuest {
                 "Bebe Vio", "Luis", "Pardis Zarei", "Martina Maccherone", "Rachel Zeilic" };
 
         Scanner input = new Scanner(System.in);
+        System.out.println("Inserisci il tuo nome");
         String nameUser = input.nextLine();
         input.close();
-
-        System.out.println(nameUser);
 
         // VALIDAZIONE DEL NOMEUSER CON I NOMI DENTRO ALL'ARRAY USANDO IL CICLO FOR
 
@@ -34,6 +33,7 @@ public class CheckGuest {
         // if(guestList[i].equals(nameUser)){
         // System.out.println("Puoi entrare");
         // counter = true;
+        // break
         // }
         // }
         // if(counter == false){
