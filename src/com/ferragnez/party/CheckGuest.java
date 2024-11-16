@@ -35,15 +35,30 @@ public class CheckGuest {
         // System.out.println("Puoi tornare cortesemente da dove sei venuto");
         // }
 
+        // int counter = 0;
+
+        // while (counter < guestList.length) {
+        // if (guestList[counter].equals(nameUser)) {
+        // System.out.println("Puoi entrare");
+        // } else {
+        // System.out.println("Puoi tornare cortesemente da dove sei venuto");
+        // }
+        // counter++;
+        // }
+
         int counter = 0;
+        boolean checkedName = false;
 
         while (counter < guestList.length) {
             if (guestList[counter].equals(nameUser)) {
                 System.out.println("Puoi entrare");
-            } else {
-                System.out.println("Puoi tornare cortesemente da dove sei venuto");
+                checkedName = true;
             }
             counter++;
+        }
+
+        if (checkedName == false) {
+            System.out.println("Puoi tornare cortesemente da dove sei venuto");
         }
     }
 
