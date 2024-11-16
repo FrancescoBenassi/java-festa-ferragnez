@@ -27,26 +27,28 @@ public class CheckGuest {
         // VALIDAZIONE DEL NOMEUSER CON I NOMI DENTRO ALL'ARRAY USANDO IL CICLO FOR IN
         // UN ALTRO MODO
 
-        // boolean counter = false;
+        // boolean checkedName = false;
 
         // for(int i = 0; i < guestList.length; i++){
         // if(guestList[i].equals(nameUser)){
         // System.out.println("Puoi entrare");
-        // counter = true;
+        // checkedName = true;
         // break
         // }
         // }
-        // if(counter == false){
+        // if(checkedName == false){
         // System.out.println("Puoi tornare cortesemente da dove sei venuto");
         // }
 
         // VALDIAZIONE DEL NOMEUSER CON I NOMI DENTRO ALL'ARRAY USANDO IL CICLO WHILE
 
         // int counter = 0;
+        // boolean checkedName = false;
 
-        // while (counter < guestList.length) {
+        // while (counter < guestList.length && checkedName == false) {
         // if (guestList[counter].equals(nameUser)) {
         // System.out.println("Puoi entrare");
+        // checkedName = true;
         // } else {
         // System.out.println("Puoi tornare cortesemente da dove sei venuto");
         // }
