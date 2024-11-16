@@ -59,7 +59,7 @@ public class CheckGuest {
         int counter = 0;
         boolean checkedName = false;
 
-        while (counter < guestList.length) {
+        while (counter < guestList.length && checkedName == false) {
             if (guestList[counter].equals(nameUser)) {
                 System.out.println("Puoi entrare");
                 checkedName = true;
