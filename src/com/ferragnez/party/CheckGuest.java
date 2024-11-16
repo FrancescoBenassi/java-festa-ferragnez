@@ -13,6 +13,8 @@ public class CheckGuest {
 
         System.out.println(nameUser);
 
+        // VALIDAZIONE DEL NOMEUSER CON I NOMI DENTRO ALL'ARRAY USANDO IL CICLO FOR
+
         // for(int i = 0; i < guestList.length; i++){
         // if(guestList[i].equals(nameUser)){
         // System.out.println("Puoi entrare");
@@ -22,6 +24,9 @@ public class CheckGuest {
         // System.out.println("Puoi tornare cortesemente da dove sei venuto");
         // }
         // }
+
+        // VALIDAZIONE DEL NOMEUSER CON I NOMI DENTRO ALL'ARRAY USANDO IL CICLO FOR IN
+        // UN ALTRO MODO
 
         // boolean counter = false;
 
@@ -35,6 +40,8 @@ public class CheckGuest {
         // System.out.println("Puoi tornare cortesemente da dove sei venuto");
         // }
 
+        // VALDIAZIONE DEL NOMEUSER CON I NOMI DENTRO ALL'ARRAY USANDO IL CICLO WHILE
+
         // int counter = 0;
 
         // while (counter < guestList.length) {
@@ -45,6 +52,9 @@ public class CheckGuest {
         // }
         // counter++;
         // }
+
+        // VALDIAZIONE DEL NOMEUSER CON I NOMI DENTRO ALL'ARRAY USANDO IL CICLO WHILE
+        // USANDO UN ALTRO MODO
 
         int counter = 0;
         boolean checkedName = false;
