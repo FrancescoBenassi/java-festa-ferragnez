@@ -11,7 +11,16 @@ public class CheckGuest {
         input.close();
 
         System.out.println(nameUser);
-        
+
+        for(int i = 0; i < guestlist.length; i++){
+            if(guestlist[i].equals(nameUser)){
+                System.out.println("Puoi entrare");
+                break;
+            }
+            else {
+                System.out.println(":occhiali_da_sole:");
+            }
+        } 
     }
 
 }
